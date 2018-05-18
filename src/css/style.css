@@ -1,0 +1,29 @@
+html, body {
+    height: 100%;
+}
+
+#showBtnArea {
+    height: inherit;
+    display: flex;
+}
+
+.hidden {
+    display: none;
+}
+
+#addBlock, #viewBlock {
+    background-color: #cccccc;
+}
+
+#viewBlock > div {
+    line-height: 2;
+}
+
+.error input {
+    border: 2px solid red;
+}
+
+.error-msg {
+    color: red;
+    font-size: 18px;
+}
